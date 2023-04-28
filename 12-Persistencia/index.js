@@ -10,7 +10,7 @@ sessionStorage.setItem("personaSession", JSON.stringify(persona));
 
 localStorage.setItem("personaLocal", JSON.stringify(persona));
 
-let expires = new Date(Date.now() + 2000).toUTCString();
+let expires = new Date(Date.now() + 120000).toUTCString();
 console.log(expires);
 
 document.cookie =
